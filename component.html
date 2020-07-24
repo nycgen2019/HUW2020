@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset=utf-8/>
+	<title></title>
+<style>
+	h4{
+		color: blue;
+	}
+	div.container {
+		display:inline-block;
+	}
+	p {
+		text-align: center;
+	}
+li {
+	display: flex;
+	justify-content: center;
+
+}
+
+	body{background-color:yellow}
+
+	* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: middle;
+  width: 33.33%;
+  padding: 15px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: flex;
+  justify-content: center;
+
+
+div {
+  width: 200px;
+  border: 80px solid turquoise;
+  padding: 50px yellow;
+  margin: 70;
+}
+</style>
+</head> 
+<body>
+	<div class="container">
+		<img src = "blueshoes.jpg" width="275" height="275"/>
+		<p> <h4> THE PICTURE IS OF BLUE SHOES. </h4></p>
+		<p> <h5> The shoes seem comfortable. </h5></p>
+	</div>
+
+	<div class="container">
+		<img src ="orangehat.jpg" width="275" height="275"/>
+		<p> <h4>THE PICTURE IS AN ORANGE HAT. </h4></p>
+		<p> <h5> The hat looks perfect for the summer. </h5></p>
+	</div>
+
+	<div class="container">
+		<img src = "linendress.jpg" width="275" height="275"/>
+		<p> <h4>THE PICTURE IS A LINEN DRESS. </h4></p>
+		<p> <h5>The dress is what we need for NYC summers. </h5></p>
+	</div>
+</body>
+</html>
